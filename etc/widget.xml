@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widgets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Widget:etc/widget.xsd">
+
+    <widget id="catalog_recently_viewed" class="Magento\Catalog\Block\Widget\RecentlyViewed">
+        <label translate="true">Widget++ Recently Viewed Products</label>
+        <description translate="true">List of Products Recently Viewed by Visitor</description>
+        <parameters>
+            <parameter name="uiComponent" xsi:type="text" required="false" visible="false">
+                <label translate="true">UI Component</label>
+                <value>widget_recently_viewed</value>
+            </parameter>
+            <parameter name="page_size" xsi:type="text" required="true" visible="true">
+                <label translate="true">Number of Products to display</label>
+                <value>5</value>
+            </parameter>
+            <parameter name="show_attributes" xsi:type="multiselect" required="true" visible="true">
+                <label translate="true">Product attributes to show</label>
+                <options>
+                    <option name="name" value="name">
+                        <label translate="true">Name</label>
+                    </option>
+                    <option name="image" value="image">
+                        <label translate="true">Image</label>
+                    </option>
+                    <option name="price" value="price">
+                        <label translate="true">Price</label>
+                    </option>
+                </options>
+            </parameter>
+            <parameter name="show_buttons" xsi:type="multiselect" required="false" visible="true">
+                <label translate="true">Buttons to show</label>
+                <options>
+                    <option name="add_to_cart" value="add_to_cart">
+                        <label translate="true">Add to Cart</label>
+                    </option>
+                </options>
+            </parameter>
+            <parameter name="template" xsi:type="select" required="true" visible="true">
+                <label>Template</label>
+                <options>
+                    <option name="grid" value="product/widget/viewed/grid.phtml" selected="true">
+                        <label translate="true">Viewed Products Grid Template</label>
+                    </option>
+                </options>
+            </parameter>
+        </parameters>
+        <containers>
+            <container name="content">
+                <template name="grid" value="grid" />
+            </container>
+            <container name="content.bottom">
+                <template name="grid" value="grid" />
+            </container>
+            <container name="page.bottom.content">
+                <template name="grid" value="grid" />
+            </container>
+        </containers>
+    </widget>
+</widgets>
