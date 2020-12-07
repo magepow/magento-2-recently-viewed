@@ -41,11 +41,10 @@ define([
                 cache: false,
                 dataType: 'json',
                 success: function(data){
-
                     if (data == 1){
                         $('.magepow-show-widget').show();
                     }else {
-                        $('.magepow-show-widget').hide();
+                        $('.magepow-show-widget').remove();
                     }
                 }
             });
