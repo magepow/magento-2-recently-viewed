@@ -7,8 +7,10 @@ define([
     'ko',
     'underscore',
     'Magento_Ui/js/grid/listing',
-    "jquery"
-], function (ko, _, Listing, $) {
+    "jquery",
+    'mage/storage',
+    'mage/url'
+], function (ko, _, Listing, $, storage, url) {
     'use strict';
 
     return Listing.extend({
@@ -30,6 +32,24 @@ define([
             this.hideLoader();
         },
 
+        getconfigValue: function () {
+            var serviceUrl = url.build('recentlyviewed/index/config');
+            $.ajax({
+                url: serviceUrl,
+                type: "POST",
+                showLoader: true,
+                cache: false,
+                dataType: 'json',
+                success: function(data){
+
+                    if (data == 1){
+                        $('.magepow-show-widget').show();
+                    }else {
+                        $('.magepow-show-widget').hide();
+                    }
+                }
+            });
+        },
         /**
          * Initialize product limit
          * Product limit can be configured through Ui component.
@@ -113,10 +133,6 @@ define([
 
             return component;
         },
-
-
-
-
 
     });
 });
