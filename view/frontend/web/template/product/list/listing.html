@@ -4,8 +4,9 @@
  * See COPYING.txt for license details.
  */
 -->
-<div if="hasData()"
-     class="widget-product recently-viewed" css="additionalClasses">
+<!--getconfigValue-->
+<div if="!getconfigValue()"
+     class="widget-product recently-viewed magepow-show-widget" css="additionalClasses">
     <div class="main-heading">
         <h2 class="heading-title block-title">
             <span role="heading"
@@ -45,12 +46,6 @@
                                     </fastForEach>
                                 </div>
                             </div>
-<!--                            <div if="getRegion('description-area')().length"-->
-<!--                                class="product-item-description">-->
-<!--                                <a class="product-item-link"-->
-<!--                                   data-bind="attr: {href: $row().url}, text: label"-->
-<!--                                   href="">Learn more</a>-->
-<!--                            </div>-->
                         </div>
                     </div>
                 </li>
@@ -59,3 +54,5 @@
         </div>
     </div>
 </div>
+
+
