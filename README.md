@@ -26,7 +26,7 @@ See recently with your own style
 ```
     Admin Panel > Stores => Configuration => Magepow => Recently Riewed
 ```
-  ![enable_disable.png](https://github.com/magepow/magento2-recently-viewed/blob/master/media/enable_disable.png)
+  ![enable_disable.png](https://github.com/magepow-teams/magento2-recently-viewed/blob/master/media/enable_disable.png)
 
 #### Step 2 : Add new block widget recently viewed
 
@@ -35,23 +35,23 @@ See recently with your own style
 ```
 Step 2.1 Config
 
-![config1.png](https://github.com/magepow/magento2-recently-viewed/blob/master/media/config1.png)
+![config1.png](https://github.com/magepow-teams/magento2-recently-viewed/blob/master/media/config1.png)
 
 Step 2.2 Config show pages
 
-![config-widget.png](https://github.com/magepow/magento2-recently-viewed/blob/master/media/config-widget.png)
+![config-widget.png](https://github.com/magepow-teams/magento2-recently-viewed/blob/master/media/config-widget.png)
 
-![config2.png](https://github.com/magepow/magento2-recently-viewed/blob/master/media/config2.png)
+![config2.png](https://github.com/magepow-teams/magento2-recently-viewed/blob/master/media/config2.png)
 
 step 2.3 Save 
 
-![saveok.png](https://github.com/magepow/magento2-recently-viewed/blob/master/media/saveok.png)
+![saveok.png](https://github.com/magepow-teams/magento2-recently-viewed/blob/master/media/saveok.png)
 
 
 ### III . Result Frontend
 
 
-![show-ok.png](https://github.com/magepow/magento2-recently-viewed/blob/master/media/show-ok.png)
+![show-ok.png](https://github.com/magepow-teams/magento2-recently-viewed/blob/master/media/show-ok.png)
 
 
 ### III : CUSTOM SUPPORT
