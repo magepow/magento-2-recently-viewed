@@ -1,4 +1,4 @@
-# magento2 Recently Riewed
+# Magento 2 Recently Viewed
 See recently with your own style
 #### Description
  - Creates a list of the user's previously viewed product when clicking another product
@@ -10,7 +10,7 @@ See recently with your own style
 - Disable and Enable the module whenever you want in Admin Panel.
 - Easily style as you like 
 
-### I . Download Magento 2 Recently Riewed Extension
+### I . Download Magento 2 Recently Viewed Extension
 
 ```
     composer require magepow/recentlyviewed
@@ -24,9 +24,9 @@ See recently with your own style
 
 - Enabled / Disabled module
 ```
-    Admin Panel > Stores => Configuration => Magepow => Recently Riewed
+    Admin Panel > Stores => Configuration => Magepow => Recently Viewed
 ```
-  ![enable_disable.png](https://github.com/magepow-teams/magento2-recently-viewed/blob/master/media/enable_disable.png)
+  ![enable_disable.png](https://github.com/magepow/magento-2-recently-viewed/blob/master/media/enable_disable.png)
 
 #### Step 2 : Add new block widget recently viewed
 
@@ -35,23 +35,23 @@ See recently with your own style
 ```
 Step 2.1 Config
 
-![config1.png](https://github.com/magepow-teams/magento2-recently-viewed/blob/master/media/config1.png)
+![config1.png](https://github.com/magepow/magento-2-recently-viewed/blob/master/media/config1.png)
 
 Step 2.2 Config show pages
 
-![config-widget.png](https://github.com/magepow-teams/magento2-recently-viewed/blob/master/media/config-widget.png)
+![config-widget.png](https://github.com/magepow/magento-2-recently-viewed/blob/master/media/config-widget.png)
 
-![config2.png](https://github.com/magepow-teams/magento2-recently-viewed/blob/master/media/config2.png)
+![config2.png](https://github.com/magepow/magento-2-recently-viewed/blob/master/media/config2.png)
 
 step 2.3 Save 
 
-![saveok.png](https://github.com/magepow-teams/magento2-recently-viewed/blob/master/media/saveok.png)
+![saveok.png](https://github.com/magepow/magento-2-recently-viewed/blob/master/media/saveok.png)
 
 
 ### III . Result Frontend
 
 
-![show-ok.png](https://github.com/magepow-teams/magento2-recently-viewed/blob/master/media/show-ok.png)
+![show-ok.png](https://github.com/magepow/magento-2-recently-viewed/blob/master/media/show-ok.png)
 
 
 ### III : CUSTOM SUPPORT
@@ -59,8 +59,8 @@ step 2.3 Save
 - Ticket Support: http://alothemes.com/ticket. If you have found any bugs or have some other problems with this extension. If the problem is not covered there, you can contact us via support center. We will respond as soon as possible (within 24 – 48 hours, usually much faster)
 
 ##### 2 -Contact
-- Support Email support@alothemes.com
-- Contact Sales: contact@alothemes.com
+- Support Email support@magepow.com
+- Contact Sales: contact@magepow.com
 
 ### Donation
 
