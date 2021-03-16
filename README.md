@@ -39,7 +39,7 @@ Step 2.1 Config
 
 Step 2.2 Config show pages
 
-![config-widget.png](https://github.com/magepow/magento-2-recently-viewed/blob/master/media/config-widget.png)
+![config-widget.png](https://github.com/magepow/magento-2-recently-viewed/blob/master/media/config-wiget.png)
 
 ![config2.png](https://github.com/magepow/magento-2-recently-viewed/blob/master/media/config2.png)
 
