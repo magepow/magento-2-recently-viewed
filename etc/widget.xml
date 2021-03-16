@@ -37,9 +37,9 @@
                     <option name="price" value="price">
                         <label translate="true">Price</label>
                     </option>
-                    <!-- <option name="learn_more" value="learn_more">
+                    <option name="learn_more" value="learn_more">
                         <label translate="true">Learn More Link</label>
-                    </option> -->
+                    </option>
                 </options>
             </parameter>
             <parameter name="show_buttons" xsi:type="multiselect" required="false" visible="true">

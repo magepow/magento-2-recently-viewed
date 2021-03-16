@@ -36,23 +36,7 @@ define([
             this.hideLoader();
         },
 
-        getconfigValue: function () {
-            var serviceUrl = url.build('recentlyviewed/index/config');
-            $.ajax({
-                url: serviceUrl,
-                type: "POST",
-                showLoader: true,
-                cache: false,
-                dataType: 'json',
-                success: function(data){
-                    if (data == 1){
-                        $('.magepow-show-widget').show();
-                    }else {
-                        $('.magepow-show-widget').remove();
-                    }
-                }
-            });
-        },
+
         /**
          * Initialize product limit
          * Product limit can be configured through Ui component.

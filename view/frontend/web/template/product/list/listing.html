@@ -8,9 +8,9 @@
  * @github: <https://github.com/magepow>
  */
 -->
-<!--getconfigValue-->
-<div if="!getconfigValue()"
-     class="widget-product recently-viewed magepow-show-widget" css="additionalClasses">
+<!-- ko if: window.magepowRecentlyviewed.enable == '1' -->
+
+<div class="widget-product recently-viewed magepow-show-widget" css="additionalClasses">
     <div class="main-heading">
         <h2 class="heading-title block-title">
             <span role="heading"
@@ -58,5 +58,5 @@
         </div>
     </div>
 </div>
-
+<!-- /ko -->
 

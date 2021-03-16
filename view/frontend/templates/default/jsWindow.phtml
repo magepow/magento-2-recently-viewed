@@ -1,0 +1,21 @@
+<?php
+/**
+ * templates/default/jsWindow.phtml
+ *
+ * @copyright Copyright © 2021 Magepow. All rights reserved.
+ * @author    Magepow
+ * @category Magepow
+ * @copyright Copyright (c) 2014 Magepow (<https://www.magepow.com>)
+ * @license <https://www.magepow.com/license-agreement.html>
+ * @Author: magepow<support@magepow.com>
+ * @github: <https://github.com/magepow>
+ */
+?>
+<?php
+$helper = $this->helper("Magepow\RecentlyViewed\Helper\Data");
+$magepowRview = [];
+$magepowRview['enable'] = $helper->getConfigModule("general/enabled");
+?>
+<script>
+    window.magepowRecentlyviewed = <?php echo json_encode($magepowRview); ?>;
+</script>
