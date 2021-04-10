@@ -1,0 +1,62 @@
+/**
+ * @copyright Copyright © 2021 Magepow. All rights reserved.
+ * @author    Magepow
+ * @category Magepow
+ * @copyright Copyright (c) 2014 Magepow (<https://www.magepow.com>)
+ * @license <https://www.magepow.com/license-agreement.html>
+ * @Author: magepow<support@magepow.com>
+ * @github: <https://github.com/magepow>
+ */
+& when (@media-common = true) {
+  .magepow-show-widget .category-products .magepow-recently-viewed.product-items .actions-secondary button.action{
+    line-height: 35px;
+    text-align: center;
+    color: #666;
+    font-weight: 600;
+    padding: 15px;
+    text-transform: uppercase;
+    display: inline-block;
+    text-decoration: none;
+    float: left;
+    margin-left: 10px;
+}
+.magepow-show-widget .category-products .magepow-recently-viewed.product-items .actions-primary{
+    float: left;
+}
+
+.magepow-show-widget .category-products .magepow-recently-viewed.product-items .actions-secondary button.action span{
+    font-size: 0;
+}
+.magepow-show-widget .category-products .magepow-recently-viewed.product-items .action.towishlist span::after{
+    content: "\f004";
+    font-size: 10px;
+    text-align: center;
+}
+.magepow-show-widget .category-products .magepow-recently-viewed.product-items .action.tocompare span::after{
+    content: "\f079";
+    font-size: 10px;
+    text-align: center;
+}
+.magepow-show-widget .category-products{
+    text-align: center;
+}
+
+.magepow-show-widget .category-products .magepow-recently-viewed .product-item .minimal-price-link,.price-box,.product-item-name{
+    text-align: center;
+}
+.product-item-actions{
+    margin: 0px 15px;
+}
+}
+
+.media-width(@extremum, @break) when (@extremum = 'min') and (@break = @screen__m) {
+  #mgp-ajaxcompare-wrapper {
+    .ajaxcompare-success-box {
+      img.image {
+        max-width: 30%;
+      }
+    }
+  }
+}
+
+
