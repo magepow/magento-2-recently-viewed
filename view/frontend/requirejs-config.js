@@ -1,12 +1,10 @@
 var config = {
-    map: {
-        "*": {
-            'owlCarousel': 'Magepow_RecentlyViewed/js/owl.carousel'
-        }
-    },
-    shim: {
-        'owlCarousel': {
-            deps: ['jquery']
+    config: {
+        mixins: {
+            'Magento_Catalog/js/product/list/listing': {
+                'Magepow_RecentlyViewed/js/product/list/listing-mixin': true
+            }
         }
     }
+    
 };

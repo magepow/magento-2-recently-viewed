@@ -45,6 +45,6 @@
             </settings>
         </dataProvider>
     </dataSource>
-    <columns name="widget_columns" component="Magepow_RecentlyViewed/js/product/list/listing" template="Magepow_RecentlyViewed/product/list/listing">
+    <columns name="widget_columns" component="Magento_Catalog/js/product/list/listing" template="Magepow_RecentlyViewed/product/list/listing">
     </columns>
 </listing>
