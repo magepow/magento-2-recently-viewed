@@ -13,8 +13,9 @@ define([
     'Magento_Ui/js/grid/listing',
     "jquery",
     'mage/storage',
-    'mage/url'
-], function (ko, _, Listing, $, storage, url) {
+    'mage/url',
+    'magepow/slick'
+], function (ko, _, Listing, $, storage, url, slick) {
     'use strict';
 
     return Listing.extend({
@@ -28,12 +29,17 @@ define([
             }
         },
 
+        options:{
+            gridSlider: '.magepow-recently-viewed'
+
+        },
+
         /** @inheritdoc */
         initialize: function () {
+            var self = this;
             this._super();
-            this.filteredRows = ko.observable();
-            this.initProductsLimit();
-            this.hideLoader();
+            this.filteredRows = ko.observable({});
+            this.initProductsLimit();            
         },
 
 
@@ -82,6 +88,7 @@ define([
          */
         filterRowsFromServer: function (rows) {
             this._filterRows(rows);
+
         },
 
         /**
@@ -92,6 +99,15 @@ define([
          */
         _filterRows: function (rows) {
             this.filteredRows(_.sortBy(rows, 'added_at').reverse().slice(0, this.limit));
+            
+        },
+
+
+        addSlickSlider: function() {
+            var self = this;
+            $(self.options.gridSlider).slick({
+               arrows: true, autoplay: true, autoplaySpeed: 3000, dots: false, infinite: true, padding: 15, responsive: [{breakpoint: 1921, settings: {slidesToShow: 5}}, {breakpoint: 1920, settings: {slidesToShow: 5}}, {breakpoint: 1480, settings: {slidesToShow: 4}}, {breakpoint: 1200, settings: {slidesToShow: 4}}, {breakpoint: 992, settings: {slidesToShow: 3}}, {breakpoint: 768, settings: {slidesToShow: 3}}, {breakpoint: 576, settings: {slidesToShow: 2}}, {breakpoint: 481, settings: {slidesToShow: 1}}, {breakpoint: 361, settings: {slidesToShow: 1}}, {breakpoint: 1, settings: {slidesToShow: 1}}], rows: 1 , slidesToShow: 5, speed: 300, vertical: false, verticalSwiping: false
+            });
         },
 
         /**
@@ -113,13 +129,13 @@ define([
         getComponentByCode: function (code) {
             var elems = this.elems() ? this.elems() : ko.getObservable(this, 'elems'),
                 component;
-
             component = _.filter(elems, function (elem) {
                 return elem.index === code;
             }, this).pop();
-
+            
             return component;
         },
+      
 
     });
 });

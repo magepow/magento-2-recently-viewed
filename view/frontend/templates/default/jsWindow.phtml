@@ -16,6 +16,19 @@ $helper = $this->helper("Magepow\RecentlyViewed\Helper\Data");
 $magepowRview = [];
 $magepowRview['enable'] = $helper->getConfigModule("general/enabled");
 ?>
+<?php
+    $_aloHelper = $this->helper('Magiccart\Alothemes\Helper\Data');
+    $options = $_aloHelper->getConfgRUC('related');
+    if(!is_array($options)){
+        echo $options;
+        $options = array();
+    }
+?>
+
 <script>
+
     window.magepowRecentlyviewed = <?php echo json_encode($magepowRview); ?>;
+   
+        
 </script>
+
