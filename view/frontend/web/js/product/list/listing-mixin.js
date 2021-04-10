@@ -12,10 +12,8 @@ define([
     'underscore',
     'Magento_Ui/js/grid/listing',
     "jquery",
-    'mage/storage',
-    'mage/url',
     'magepow/slick'
-], function (ko, _, Listing, $, storage, url, slick) {
+], function (ko, _, Listing, $, storage, slick) {
     'use strict';
     var mixin = {
         addSlickSlider : function(){
