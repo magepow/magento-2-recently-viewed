@@ -8,7 +8,11 @@ See recently with your own style
 
 
 - Disable and Enable the module whenever you want in Admin Panel.
-- Easily style as you like 
+- Easily style as you like
+
+[![Latest Stable Version](https://poser.pugx.org/magepow/recentlyviewed/v/stable)](https://packagist.org/packages/magepow/recentlyviewed)
+[![Total Downloads](https://poser.pugx.org/magepow/recentlyviewed/downloads)](https://packagist.org/packages/magepow/recentlyviewed)
+[![Daily Downloads](https://poser.pugx.org/magepow/recentlyviewed/d/daily)](https://packagist.org/packages/magepow/recentlyviewed)
 
 ### I . Download Magento 2 Recently Viewed Extension
 
