@@ -1,14 +1,37 @@
-# Magento 2 Recently Viewed
-See recently with your own style
-#### Description
- - Creates a list of the user's previously viewed product when clicking another product
+## Magento 2 Recently Viewed Product extension
 
+Help customers (logged-in customers) see the products they follow up close on your website in style.
+
+### Description
+
+Many studies of customer behavior on electronic websites have shown that customers often tend to search for products they have previously viewed on the website. There are many different reasons: compare prices, compare features with the product they are currently viewing, or simply want to buy that product.
+
+Therefore, Magepow released [**Magento 2 Recently Viewed Products**](https://magepow.com/magento-2-recently-viewed-products.html) to help the website optimize the customer experience on the page, while increasing sales for the store.
+
+[![show-ok.png](https://github.com/magepow/magento-2-recently-viewed/blob/master/media/show-ok.png)](https://magepow.com/magento-2-recently-viewed-products.html)
+
+Recently viewed product extension simplifies the shopping process of customers by displaying products they have visited before.
+
+With this widget, the viewed product block will automatically display on the homepage, product page, category page. Website visitors don't need to return to the search bar, scrolling through categories to check out the products they've viewed.
+
+The widget includes a custom widget block that allows you to display your products anywhere on your website. Highlight products to old customers to stimulate them to buy.
 
 #### Highlight Features
 
 
 - Disable and Enable the module whenever you want in Admin Panel.
+
 - Easily style as you like
+
+- Recently viewed products list is automatically displayed based on user's browser history
+
+- Supported widget
+
+- Setup layout update
+
+- Setup button: Add to cart, Add to Compare, Add to wishlist
+
+
 
 [![Latest Stable Version](https://poser.pugx.org/magepow/recentlyviewed/v/stable)](https://packagist.org/packages/magepow/recentlyviewed)
 [![Total Downloads](https://poser.pugx.org/magepow/recentlyviewed/downloads)](https://packagist.org/packages/magepow/recentlyviewed)
@@ -55,7 +78,7 @@ step 2.3 Save
 ### III . Result Frontend
 
 
-![show-ok.png](https://github.com/magepow/magento-2-recently-viewed/blob/master/media/show-ok.png)
+
 
 
 ### III : CUSTOM SUPPORT
