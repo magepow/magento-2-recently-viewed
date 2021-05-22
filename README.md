@@ -31,11 +31,13 @@ The widget includes a custom widget block that allows you to display your produc
 
 - Setup button: Add to cart, Add to Compare, Add to wishlist
 
-
+...
 
 [![Latest Stable Version](https://poser.pugx.org/magepow/recentlyviewed/v/stable)](https://packagist.org/packages/magepow/recentlyviewed)
 [![Total Downloads](https://poser.pugx.org/magepow/recentlyviewed/downloads)](https://packagist.org/packages/magepow/recentlyviewed)
 [![Daily Downloads](https://poser.pugx.org/magepow/recentlyviewed/d/daily)](https://packagist.org/packages/magepow/recentlyviewed)
+
+## How to use Recently viewed extension for Magento 2?
 
 ### I . Download Magento 2 Recently Viewed Extension
 
@@ -73,12 +75,6 @@ Step 2.2 Config show pages
 step 2.3 Save 
 
 ![saveok.png](https://github.com/magepow/magento-2-recently-viewed/blob/master/media/saveok.png)
-
-
-### III . Result Frontend
-
-
-
 
 
 ### III : CUSTOM SUPPORT
