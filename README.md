@@ -10,7 +10,7 @@ Many studies of customer behavior on electronic websites have shown that custome
 
 Therefore, Magepow released [**Magento 2 Recently Viewed Products**](https://magepow.com/magento-2-recently-viewed-products.html) to help the website optimize the customer experience on the page, while increasing sales for the store.
 
-[![show-ok.png](https://github.com/magepow/magento-2-recently-viewed/blob/master/media/show-ok.png)](https://magepow.com/magento-2-recently-viewed-products.html)
+[![show-ok.png](https://github.com/magepow/magento-2-recently-viewed/blob/main/media/show-ok.png)](https://magepow.com/magento-2-recently-viewed-products.html)
 
 Recently viewed product extension simplifies the shopping process of customers by displaying products they have visited before.
 
@@ -57,7 +57,7 @@ The widget includes a custom widget block that allows you to display your produc
 ```
     Admin Panel > Stores => Configuration => Magepow => Recently Viewed
 ```
-  ![enable_disable.png](https://github.com/magepow/magento-2-recently-viewed/blob/master/media/enable_disable.png)
+  ![enable_disable.png](https://github.com/magepow/magento-2-recently-viewed/blob/main/media/enable_disable.png)
 
 #### Step 2 : Add new block widget recently viewed
 
@@ -66,17 +66,17 @@ The widget includes a custom widget block that allows you to display your produc
 ```
 Step 2.1 Config
 
-![config1.png](https://github.com/magepow/magento-2-recently-viewed/blob/master/media/config1.png)
+![config1.png](https://github.com/magepow/magento-2-recently-viewed/blob/main/media/config1.png)
 
 Step 2.2 Config show pages
 
-![config-widget.png](https://github.com/magepow/magento-2-recently-viewed/blob/master/media/config-wiget.png)
+![config-widget.png](https://github.com/magepow/magento-2-recently-viewed/blob/main/media/config-wiget.png)
 
-![config2.png](https://github.com/magepow/magento-2-recently-viewed/blob/master/media/config2.png)
+![config2.png](https://github.com/magepow/magento-2-recently-viewed/blob/main/media/config2.png)
 
 step 2.3 Save 
 
-![saveok.png](https://github.com/magepow/magento-2-recently-viewed/blob/master/media/saveok.png)
+![saveok.png](https://github.com/magepow/magento-2-recently-viewed/blob/main/media/saveok.png)
 
 
 ### III : CUSTOM SUPPORT
